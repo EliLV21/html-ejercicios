@@ -7,17 +7,21 @@
     <title></title>
   </head>
   <body>
-    <table>
+
+    <script src = "convertir-c-a-f.js"></script>
+    <h1 align=center>Tabla de conversiones</h1>
+    <hr align="center" size="2" width="400" color="#4F4848" noshade>
+    <table align=center border collapse=separate>
     <tr>
       <td><strong>Farenheit</strong></td>
-      <td></td>
-      <td><input type= submit value="Convertir a Celsius"/></td>
+      <td><input type="text" id = "farenhait"/></td>
+      <td><input type= "submit" value="Convertir a Celsius" onclick = "convertirCelcius();"/></td>
     </tr>
 
     <tr>
       <td><strong>Celcius</strong></td>
-      <td></td>
-      <td><input type= submit value="Convertir a Farenheit"/></td>
+      <td><input type="text" id = "celsius"/></td>
+      <td><input type= "button" value="Convertir a Farenheit" onclick = "convertirFarenhait()" /></td>
     </tr>
 
     </table>
